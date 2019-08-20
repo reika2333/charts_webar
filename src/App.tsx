@@ -1,12 +1,9 @@
 import React from 'react';
-import './App.scss';
 
-import Homepage from './pages/homepage/Homepage'
+import Homepage from './pages/homepage/Homepage';
 
 function App() {
-  return (
-    <Homepage />
-  );
+  return <Homepage />;
 }
 
 export default App;

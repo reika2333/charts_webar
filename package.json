@@ -14,6 +14,7 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1",
+    "react-test-renderer": "^16.9.0",
     "typescript": "3.5.3"
   },
   "scripts": {
@@ -23,11 +24,11 @@
     "eject": "react-scripts eject"
   },
   "husky": {
-     "hooks": {
-       "pre-commit": "lint-staged"
-     }
-   },
-   "lint-staged": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
       "prettier --single-quote --write",
       "git add"
@@ -44,5 +45,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.10.3",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.4.0"
   }
 }
