@@ -1,0 +1,15 @@
+.webar-btn {
+  width: 200px;
+  height: 70px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  font-size: 25px;
+  &:hover {
+    cursor: pointer;
+  }
+  &:active {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: white;
+  }
+}
