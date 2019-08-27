@@ -1,37 +1,21 @@
 #Homepage {
-   width: 100%;
-   height: 100%;
-   background-color: #a4a3a5;
-   background-image: url('./bg-img.jpg');
-   background-size: auto 100%;
-   background-repeat: no-repeat;
-   background-position: right;
-   overflow: hidden;
-   text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: #a4a3a5;
+  background-image: url('./bg-img.jpg');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  overflow: hidden;
+  text-align: center;
 }
 .title-welcome {
-    padding-top: 50px;
-    font-size: 40px;
-    color: black;
-    z-index: 100;
+  padding-top: 50px;
+  font-size: 40px;
+  color: black;
+  z-index: 100;
 }
 .title-name {
-   text-align: center;
-   color: #fabd60; 
-}
-.content-btn {
-    width: 200px;
-    height: 70px;
-    color: black;
-    margin-top: 250px;
-    background-color: rgba(255,255,255,0.5);
-    border: none;
-    font-size: 25px;
-    &:hover {
-        cursor: pointer;
-    }
-    &:active {
-        background-color: rgba(255,255,255,0.4);
-        color: white;
-    }
+  text-align: center;
+  color: #fabd60;
 }
