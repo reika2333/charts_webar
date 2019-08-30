@@ -2,7 +2,7 @@ import React from 'react';
 // import * as THREE from 'three';
 import './Homepage.scss';
 import Button from 'components/atoms/button/Button';
-import Cube from 'components/models/cube/Cube';
+// import Cube from 'components/models/cube/Cube';
 
 export default () => (
   <div id="Homepage">
