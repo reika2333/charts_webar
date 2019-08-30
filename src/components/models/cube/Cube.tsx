@@ -3,12 +3,14 @@ import 'aframe';
 import 'aframe-particle-system-component';
 import { Entity, Scene } from 'aframe-react';
 
+// import 'aframe-ar'
+
 export default () => (
   <Scene>
     <Entity
       geometry={{ primitive: 'box' }}
       material={{ color: 'red' }}
-      position={{ x: 0, y: 0, z: -5 }}
+      position={{ x: 3, y: 3, z: -5 }}
     />
     <Entity particle-system={{ preset: 'snow' }} />
     <Entity light={{ type: 'point' }} />

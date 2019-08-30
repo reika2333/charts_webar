@@ -12,10 +12,11 @@ export default () => (
       buttonStyle={{ marginTop: '250px' }}
       onClick={() => {
         console.log('Button Clicked!');
+        window.location.href = 'https://reikas.surge.sh/cube.html';
       }}
     >
       let's scan
     </Button>
-    <Cube />
+    {/* <Cube /> */}
   </div>
 );
