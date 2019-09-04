@@ -19,5 +19,6 @@ export default () => (
       </a>
     </Button>
     {/* <Cube /> */}
+    <div dangerouslySetInnerHTML={{ __html: 'public/cube.html' }} />
   </div>
 );
