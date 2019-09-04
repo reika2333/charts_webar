@@ -13,4 +13,4 @@ deploy:
   domain: reikas.surge.sh
   project: ./build/
 on:
-  branch: feature/integrate-ar
+  branch: master

@@ -1,11 +1,15 @@
 import React from 'react';
-
-// import Homepage from './pages/homepage/Homepage';
-import cubeHtml from 'pages/testSence/cube';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import Homepage from './pages/homepage/Homepage';
+import ARPage from './pages/arpage/ARPage';
 
 function App() {
-  // return <Homepage />;
-  return <div dangerouslySetInnerHTML={{ __html: cubeHtml }} />;
+  return (
+    <Router>
+      <Route exact path="/" component={Homepage} />
+      <Route path="/ar" component={ARPage} />
+    </Router>
+  );
 }
 
 export default App;
